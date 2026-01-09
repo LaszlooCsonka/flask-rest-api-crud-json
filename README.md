@@ -43,10 +43,10 @@ This project was managed using **Scrum** in Jira.
 }
 
 ⚙️ Setup & Installation
-    - Clone the repository.
+Clone the repository.
 
-    - Install dependencies: pip install flask
+Install dependencies: pip install flask
 
-    - Run the application: python app.py
+Run the application: python app.py
 
-    - Access the API at http://127.0.0.1:5000/users
+Access the API at http://127.0.0.1:5000/users
