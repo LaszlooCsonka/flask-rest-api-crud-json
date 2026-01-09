@@ -69,4 +69,4 @@ pip install -r requirements.txt
 # Run the application
 python app.py
 
-Access the API: The API will be live at: http://127.0.0.1:5000/users
+2. **Access the API: The API will be live at: http://127.0.0.1:5000/users**
