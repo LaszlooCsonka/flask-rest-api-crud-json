@@ -45,7 +45,6 @@ The development followed **Scrum** methodology to ensure structured delivery. Ta
 | **DELETE** | `/users/<id>` | Remove a user by ID |
 
 ### Example Request (POST):
-```json
 {
     "id": 3,
     "name": "Jane Doe"
@@ -56,9 +55,8 @@ The development followed **Scrum** methodology to ensure structured delivery. Ta
 1. **Clone, Install and Run:**
    Copy and paste the following commands into your terminal to get started:
 
-```bash
 # Clone the repository
-git clone [https://github.com/your-username/flask-user-api.git](https://github.com/your-username/flask-user-api.git)
+git clone https://github.com/your-username/flask-user-api.git
 
 # Navigate to project folder
 cd flask-user-api
@@ -69,4 +67,5 @@ pip install -r requirements.txt
 # Run the application
 python app.py
 
-2. **Access the API: The API will be live at: http://127.0.0.1:5000/users**
+2. **Access the API:**
+   The API will be live at: http://127.0.0.1:5000/users
