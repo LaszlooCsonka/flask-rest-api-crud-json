@@ -56,10 +56,10 @@ The development followed **Scrum** methodology to ensure structured delivery. Ta
    Copy and paste the following commands into your terminal to get started:
 
 # Clone the repository
-git clone https://github.com/your-username/flask-user-api.git
+git clone https://github.com/your-username/flask-rest-api-crud-json.git
 
 # Navigate to project folder
-cd flask-user-api
+cd flask-rest-api-crud-json
 
 # Install dependencies
 pip install -r requirements.txt
