@@ -21,7 +21,16 @@ The API workflow was designed prior to implementation to ensure robust logic.
 *Figure 1: BPMN diagram of the User Creation process.*
 
 ## 📋 Project Management
-This project was managed using **Scrum** in Jira.
+The development followed **Scrum** methodology to ensure structured delivery. Tasks were organized into a focused Sprint with clear acceptance criteria.
+
+<details>
+<summary>📊 Click to view Sprint Completion Report (Jira)</summary>
+<br>
+<p align="center">
+  <img src="./assets/jira-report.png" alt="Jira Sprint Report">
+</p>
+</details>
+
 - **Epics:** `Project Design & Documentation`, `Core API Development`
 - **Tasks:** Modeled as User Stories with specific Acceptance Criteria.
 - **Tracking:** Developed in a dedicated Sprint (USER-1 to USER-5).
@@ -42,11 +51,22 @@ This project was managed using **Scrum** in Jira.
     "name": "Jane Doe"
 }
 
-⚙️ Setup & Installation
-Clone the repository.
+## ⚙️ Setup & Installation
 
-Install dependencies: pip install flask
+1. **Clone, Install and Run:**
+   Copy and paste the following commands into your terminal to get started:
 
-Run the application: python app.py
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/flask-user-api.git](https://github.com/your-username/flask-user-api.git)
 
-Access the API at http://127.0.0.1:5000/users
+# Navigate to project folder
+cd flask-user-api
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python app.py
+
+Access the API: The API will be live at: http://127.0.0.1:5000/users
