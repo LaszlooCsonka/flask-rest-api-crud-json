@@ -1,26 +1,52 @@
-# flask-rest-api-crud-json
-A simple Python Flask REST API implementing full CRUD operations with JSON file storage. Includes a Postman collection for easy API testing.
+# Flask REST API with JSON Persistence
 
-# Simple Flask REST API
+A professional User Management API built with Python and Flask. This project demonstrates modern software development practices, including **BPMN process modeling**, **Scrum methodology**, and **automated API testing**.
 
-Ez egy gyakorló projekt, amely egy alapvető REST API-t valósít meg Python és Flask használatával. 
-A projekt célja a CRUD műveletek és az API tesztelés folyamatának bemutatása.
+## 🚀 Features
+- **Full CRUD functionality**: Create, Read, Update, and Delete users.
+- **Persistence**: Data is stored in a local `users.json` file.
+- **Error Handling**: Comprehensive validation for missing fields, duplicate IDs, and non-existent users.
+- **Process Documentation**: Visualized workflow using BPMN 2.0 standards.
 
-## Funkciók
-- **GET /users**: Felhasználók listázása
-- **POST /users**: Új felhasználó létrehozása (id, nev)
-- **PUT /users/<id>**: Meglévő felhasználó nevének módosítása
-- **DELETE /users/<id>**: Felhasználó törlése
+## 🛠️ Technology Stack
+- **Backend:** Python, Flask
+- **Database:** JSON (File-based persistence)
+- **Design:** Camunda Modeler (BPMN 2.0)
+- **Project Management:** Jira (Scrum)
+- **Testing:** Postman
 
-## Technológiai stack
-- **Backend:** Python 3, Flask
-- **Adattárolás:** JSON fájl
-- **Tesztelés:** Postman
+## 📊 Business Logic (BPMN)
+The API workflow was designed prior to implementation to ensure robust logic.
+![User Flow](./assets/user-flow.png)
+*Figure 1: BPMN diagram of the User Creation process.*
 
-## Használat
-1. Telepítsd a függőségeket: `pip install -r requirements.txt`
-2. Indítsd el a szervert: `python app.py`
-3. Az API a `http://127.0.0.1:5000` címen lesz elérhető.
+## 📋 Project Management
+This project was managed using **Scrum** in Jira.
+- **Epics:** `Project Design & Documentation`, `Core API Development`
+- **Tasks:** Modeled as User Stories with specific Acceptance Criteria.
+- **Tracking:** Developed in a dedicated Sprint (USER-1 to USER-5).
 
-## Tesztelés
-A `tests/` mappában található egy exportált Postman Collection, amelyet importálhatsz a Postmanbe a végpontok teszteléséhez.
+## 🔌 API Endpoints
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| **GET** | `/users` | Get all users |
+| **POST** | `/users` | Create a new user (requires `id`, `name`) |
+| **PUT** | `/users/<id>` | Update an existing user's name |
+| **DELETE** | `/users/<id>` | Remove a user by ID |
+
+### Example Request (POST):
+```json
+{
+    "id": 3,
+    "name": "Jane Doe"
+}
+
+⚙️ Setup & Installation
+    - Clone the repository.
+
+    - Install dependencies: pip install flask
+
+    - Run the application: python app.py
+
+    - Access the API at http://127.0.0.1:5000/users

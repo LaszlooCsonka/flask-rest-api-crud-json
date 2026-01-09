@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "nev": "Kovács János"
+        "name": "John Doe"
     },
     {
         "id": 2,
-        "nev": "Nagy Anna"
+        "name": "Anna Smith"
     }
 ]
