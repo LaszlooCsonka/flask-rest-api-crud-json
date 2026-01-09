@@ -27,7 +27,7 @@ The development followed **Scrum** methodology to ensure structured delivery. Ta
 <summary>📊 Click to view Sprint Completion Report (Jira)</summary>
 <br>
 <p align="center">
-  <img src="./assets/jira-report.png" alt="Jira Sprint Report">
+  <img src="./assets/jira-report.PNG" alt="Jira Sprint Report">
 </p>
 </details>
 
